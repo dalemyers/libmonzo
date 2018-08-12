@@ -1,0 +1,39 @@
+[MASTER]
+
+# Pickle collected data for later comparisons.
+persistent=yes
+
+[MESSAGES CONTROL]
+
+# W0401 wildcard-import
+disable=W0401
+
+[REPORTS]
+
+# Set the output format. Available formats are text, parseable, colorized, json
+# and msvs (visual studio).You can also give a reporter class, eg
+# mypackage.mymodule.MyReporterClass.
+output-format=parseable
+
+[BASIC]
+
+# Good variable names which should always be accepted, separated by a comma
+good-names=f,i,j,k,ex,log,_
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=120
+
+[DESIGN]
+
+# Maximum number of arguments for function / method
+max-args=8
+
+# Minimum number of public methods for a class (see R0903).
+min-public-methods=0
+
+max-instance-attributes=15
+
+# Expected format of line ending, e.g. empty (any line ending), LF or CRLF.
+expected-line-ending-format=LF
