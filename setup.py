@@ -34,7 +34,7 @@ def run_setup():
             'Intended Audience :: Developers',
             'Intended Audience :: Financial and Insurance Industry',
             'Intended Audience :: Information Technology',
-            'License :: OSI Approved :: MIT License'
+            'License :: OSI Approved :: MIT License',
             'Programming Language :: Python :: 3',
             'Programming Language :: Python :: 3.7',
             'Topic :: Office/Business :: Financial',
