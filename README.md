@@ -8,11 +8,14 @@ A Python library for interacting with Monzo bank accounts that can handle OAuth 
 
 ### Setup
 
-To use this library, you'll need to create your own client on the Monzo developer site: https://developers.monzo.com/apps/home
+Monzo has not opened their API broadly yet, and have some restrictions in place. As such, in order to use this library, you'll need to follow a few steps. 
 
-The name, logo, and description can be whatever you want it to be. Set the "Confidentiality" to "Not Confidential" and set the redirect URL to "http://localhost:36453/monzo_callback" (or whatever you like if you will be providing the access token).
-
-You'll need to store the client ID, the owner ID and the client secret for use in setup of the client later.
+1. Create your own client on the Monzo developer site: https://developers.monzo.com/apps/home
+2. Set the name, logo, and description to whatever you want them to be. 
+3. Set the "Confidentiality" to "Not Confidential"
+4. Set the redirect URL to "http://localhost:36453/monzo_callback" (or whatever you like if you will be providing the access token).
+5. Keep note of the client ID, the owner ID, and the client secret for later use.
+6. Add your own user ID as a collaborator (this may not be required, but it appeared that I had to in order for things to work).
 
 ### Example:
 
